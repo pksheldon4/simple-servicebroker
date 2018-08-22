@@ -19,7 +19,7 @@ public class CatalogConfig {
     public Catalog catalog() {
         return new Catalog(Collections.singletonList(
                 new ServiceDefinition(
-                        getEnvOrDefault("SERVICE_ID", "sample-service-broker"),
+                        getEnvOrDefault("SERVICE_ID", "simple-servicebroker"),
                         getEnvOrDefault("SERVICE_NAME", "SampleService"),
                         "A sample service broker implementation",
                         true,
@@ -43,8 +43,8 @@ public class CatalogConfig {
         sdMetadata.put("imageUrl", "http://info.mongodb.com/rs/mongodb/images/MongoDB_Logo_Full.png");
         sdMetadata.put("longDescription", "My Sample Service");
         sdMetadata.put("providerDisplayName", "Pivotal");
-        sdMetadata.put("documentationUrl", "https://github.com/pksheldon4/sample-servicebroker");
-        sdMetadata.put("supportUrl", "https://github.com/pksheldon4/sample-servicebroker");
+        sdMetadata.put("documentationUrl", "https://github.com/pksheldon4/simple-servicebroker");
+        sdMetadata.put("supportUrl", "https://github.com/pksheldon4/simple-servicebroker");
         return sdMetadata;
     }
 

@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.pksheldon4.cloudfoundry.servicebroker</groupId>
-    <artifactId>sample-servicebroker</artifactId>
+    <artifactId>simple-servicebroker</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>sample-service</name>
+    <name>simple-servicebroker</name>
     <description>Sample Cloud Foundry ServiceBroker</description>
 
     <parent>

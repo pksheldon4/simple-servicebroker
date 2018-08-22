@@ -1,5 +1,5 @@
 ---
   applications:
-    - name: sample-servicebroker
-      path: ./target/sample-servicebroker.jar
+    - name: simple-servicebroker
+      path: ./target/simple-servicebroker.jar
       random-route: true
